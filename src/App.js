@@ -10,7 +10,7 @@ function App() {
 
       <div className="Cards">
 
-        <Card titulo="Desafio Aleatorio" >
+        <Card titulo="Desafio Aleatorio" color="#080">
           <Aleatorio min={1} max={60} />
         </Card>
 
