@@ -1,6 +1,8 @@
-import Aleatorio from "./layout/components/basicos/num"
-import Card from "./layout/components/basicos/Card"
-import Familia from "./layout/components/basicos/Familia";
+import Aleatorio from "./components/basicos/num"
+import Card from "./components/basicos/Card"
+import Familia from "./components/basicos/Familia";
+import FamiliaMembro from "./components/basicos/FamiliaMembro.jsx";
+import ListaAlunos from "./components/repeticao/ListaAlunos";
 import './App.css';
 import Hello from "./helloworld"
 
@@ -11,8 +13,20 @@ function App() {
 
       <div className="Cards">
 
-        <Card titulo="#04 - Componente com Filhos " color="#F7B32B">
-          <Familia sobrenome="Anjos" />
+        <Card titulo="#05 - Repeticao " color="#F7B32B">
+          <Familia sobrenome="Anjos">
+            <FamiliaMembro nome="Higor" />
+            <FamiliaMembro nome="Maria" />
+            <FamiliaMembro nome="Laura" />
+          </Familia>
+        </Card>
+
+        <Card titulo="#04 - Componente com Filho'S " color="#F7B32B">
+          <Familia sobrenome="Anjos">
+            <FamiliaMembro nome="Higor" />
+            <FamiliaMembro nome="Maria" />
+            <FamiliaMembro nome="Laura" />
+          </Familia>
         </Card>
 
         <Card titulo="#03 - Desafio Aleatorio" color="#080">
