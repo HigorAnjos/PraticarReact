@@ -14,11 +14,7 @@ function App() {
       <div className="Cards">
 
         <Card titulo="#05 - Repeticao " color="#F7B32B">
-          <Familia sobrenome="Anjos">
-            <FamiliaMembro nome="Higor" />
-            <FamiliaMembro nome="Maria" />
-            <FamiliaMembro nome="Laura" />
-          </Familia>
+          <ListaAlunos />
         </Card>
 
         <Card titulo="#04 - Componente com Filho'S " color="#F7B32B">
