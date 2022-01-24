@@ -3,6 +3,9 @@ import Card from "./components/basicos/Card"
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro.jsx";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
+import Produtos from "./components/repeticao/Produtos"
+import ParOuImpar from "./components/condicional/parOUimpar"
+import UsuarioInfo from "./components/condicional/usuarioInfo";
 import './App.css';
 import Hello from "./helloworld"
 
@@ -13,7 +16,17 @@ function App() {
 
       <div className="Cards">
 
-        <Card titulo="#05 - Repeticao " color="#F7B32B">
+        <Card titulo="#07 - Redenrizacao Condicional " color="#241E4E">
+          <ParOuImpar numero={20} />
+          <UsuarioInfo usuario={{ nome: "higor" }} />
+          <UsuarioInfo />
+        </Card>
+
+        <Card titulo="#06 - Desafio Produtos " color="#C64191">
+          <Produtos />
+        </Card>
+
+        <Card titulo="#05 - Repeticao " color="#00BFB2">
           <ListaAlunos />
         </Card>
 

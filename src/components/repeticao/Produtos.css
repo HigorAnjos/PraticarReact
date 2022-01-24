@@ -1,0 +1,10 @@
+#center {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+
+}
+thead {
+  background-color: black;
+  color: white;
+}
